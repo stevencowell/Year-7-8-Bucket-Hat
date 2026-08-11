@@ -1,0 +1,1239 @@
+{
+  "schema_version": "1.0.0",
+  "artifact_id": "bucket-hat-teacher-program",
+  "version": "1.0.0",
+  "build_id": "task-28-bucket-hat-prepublication",
+  "course": "Technology 7\u20138 Syllabus (2023) - Bucket Hat for a Cause",
+  "cohort": "Stage 4 / Years 7\u20138",
+  "source_contract": {
+    "artifact_id": "bucket-hat-source-contract",
+    "version": "1.0.0",
+    "sha256": "f1683f678075afbc9990dc7a7763bd6c5506b5443ba6a43da188e3519c3d4f1a"
+  },
+  "authority_state": "Source-bound teacher program; local sign-off Teacher to confirm",
+  "release_state": "Pre-publication candidate",
+  "outcomes": [
+    {
+      "code": "TE4-SDP-01",
+      "statement": "explains relationships between sustainability, design and production",
+      "source_id": "nesa-outcomes",
+      "module_ids": [
+        "module-01",
+        "module-06",
+        "module-10"
+      ],
+      "evidence_summary": "Weeks 1, 6 and 10: cause, material life cycle, durability and evaluation"
+    },
+    {
+      "code": "TE4-PDP-01",
+      "statement": "describes the practices and processes of designers and producers",
+      "source_id": "nesa-outcomes",
+      "module_ids": [
+        "module-01",
+        "module-03",
+        "module-04",
+        "module-05",
+        "module-06",
+        "module-07",
+        "module-09",
+        "module-10"
+      ],
+      "evidence_summary": "Design research, sampling, production sequence and reflection"
+    },
+    {
+      "code": "TE4-MSC-01",
+      "statement": "explains how materials, systems and components contribute to solutions",
+      "source_id": "nesa-outcomes",
+      "module_ids": [
+        "module-01",
+        "module-02",
+        "module-06",
+        "module-07",
+        "module-08"
+      ],
+      "evidence_summary": "Textile systems, fibre/fabric properties, decorative samples and hat components"
+    },
+    {
+      "code": "TE4-PPM-01",
+      "statement": "applies processes in the planning, management and production of projects",
+      "source_id": "nesa-outcomes",
+      "module_ids": [
+        "module-02",
+        "module-04",
+        "module-05",
+        "module-08",
+        "module-09"
+      ],
+      "evidence_summary": "Concept selection, pattern readiness, action plan, production and progress evidence"
+    },
+    {
+      "code": "TE4-DES-01",
+      "statement": "communicates and evaluates design ideas and solutions",
+      "source_id": "nesa-outcomes",
+      "module_ids": [
+        "module-01",
+        "module-03",
+        "module-04",
+        "module-05",
+        "module-07",
+        "module-08",
+        "module-09",
+        "module-10"
+      ],
+      "evidence_summary": "Mood board, annotated concepts, criteria, folio, evaluation and designer statement"
+    },
+    {
+      "code": "TE4-SAF-01",
+      "statement": "selects and safely uses tools, materials, technologies and processes",
+      "source_id": "nesa-outcomes",
+      "module_ids": [
+        "module-02",
+        "module-07",
+        "module-08",
+        "module-09"
+      ],
+      "evidence_summary": "Safety audit, teacher-approved readiness, supervised trials and production"
+    },
+    {
+      "code": "TE4-DIG-01",
+      "statement": "demonstrates technological literacy to safely interact in digital environments",
+      "source_id": "nesa-outcomes",
+      "module_ids": [
+        "module-03",
+        "module-06",
+        "module-09",
+        "module-10"
+      ],
+      "evidence_summary": "Responsible research, device-local evidence, source recording and product photography"
+    }
+  ],
+  "modules": [
+    {
+      "module_id": "module-01",
+      "title": "1. Textiles with a purpose",
+      "timing": "Week 1; approximately 180 minutes, timetable Teacher to confirm",
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01",
+        "TE4-DES-01",
+        "TE4-SDP-01"
+      ],
+      "sections": [
+        {
+          "section_id": "module-01-section-1",
+          "title": "1.1 Textiles are everywhere",
+          "content_descriptors": [
+            "Identify characteristics and properties of materials; outline factors affecting product design; investigate products developed by designers and producers."
+          ],
+          "source_ids": [
+            "nesa-materials",
+            "bucket-course"
+          ],
+          "learning_intention": "Explain how textile products respond to users and purposes, then frame a respectful cause-based design direction.",
+          "learning_sequence": "Introduce textiles as systems of fibres, yarns, fabrics and components. Analyse the bucket hat as an apparel product, identify user needs and discuss how colour, imagery and material choices can communicate a respectful cause.",
+          "working_scientifically": "Not applicable to Technology 7\u20138; design and production process: Identifying and defining; researching users, purpose and context.",
+          "evidence": "Activity 1 purpose gallery; three written responses; 30 section checks; initial folio evidence.",
+          "formative_checks": "10 adjacent section questions plus one guided written response",
+          "adjustments": "Use real textile examples, labelled visuals, word banks, oral rehearsal and a reduced set of cause prompts where appropriate.",
+          "resources": "Module 1 webpage and PowerPoint, purpose gallery image, videos, Activity 1 and folio.",
+          "site_destinations": {
+            "theory": "modules/module-01.html#section-1",
+            "knowledge_check": "modules/module-01.html#section-1",
+            "written_response": "modules/module-01.html#section-1",
+            "activity": "activities.html#activity-1"
+          }
+        },
+        {
+          "section_id": "module-01-section-2",
+          "title": "1.2 Hats, users and sun protection",
+          "content_descriptors": [
+            "Identify characteristics and properties of materials; outline factors affecting product design; investigate products developed by designers and producers."
+          ],
+          "source_ids": [
+            "nesa-materials",
+            "bucket-course"
+          ],
+          "learning_intention": "Explain how textile products respond to users and purposes, then frame a respectful cause-based design direction.",
+          "learning_sequence": "Introduce textiles as systems of fibres, yarns, fabrics and components. Analyse the bucket hat as an apparel product, identify user needs and discuss how colour, imagery and material choices can communicate a respectful cause.",
+          "working_scientifically": "Not applicable to Technology 7\u20138; design and production process: Identifying and defining; researching users, purpose and context.",
+          "evidence": "Activity 1 purpose gallery; three written responses; 30 section checks; initial folio evidence.",
+          "formative_checks": "10 adjacent section questions plus one guided written response",
+          "adjustments": "Use real textile examples, labelled visuals, word banks, oral rehearsal and a reduced set of cause prompts where appropriate.",
+          "resources": "Module 1 webpage and PowerPoint, purpose gallery image, videos, Activity 1 and folio.",
+          "site_destinations": {
+            "theory": "modules/module-01.html#section-2",
+            "knowledge_check": "modules/module-01.html#section-2",
+            "written_response": "modules/module-01.html#section-2",
+            "activity": "activities.html#activity-1"
+          }
+        },
+        {
+          "section_id": "module-01-section-3",
+          "title": "1.3 Designing for a cause",
+          "content_descriptors": [
+            "Identify characteristics and properties of materials; outline factors affecting product design; investigate products developed by designers and producers."
+          ],
+          "source_ids": [
+            "nesa-materials",
+            "bucket-course"
+          ],
+          "learning_intention": "Explain how textile products respond to users and purposes, then frame a respectful cause-based design direction.",
+          "learning_sequence": "Introduce textiles as systems of fibres, yarns, fabrics and components. Analyse the bucket hat as an apparel product, identify user needs and discuss how colour, imagery and material choices can communicate a respectful cause.",
+          "working_scientifically": "Not applicable to Technology 7\u20138; design and production process: Identifying and defining; researching users, purpose and context.",
+          "evidence": "Activity 1 purpose gallery; three written responses; 30 section checks; initial folio evidence.",
+          "formative_checks": "10 adjacent section questions plus one guided written response",
+          "adjustments": "Use real textile examples, labelled visuals, word banks, oral rehearsal and a reduced set of cause prompts where appropriate.",
+          "resources": "Module 1 webpage and PowerPoint, purpose gallery image, videos, Activity 1 and folio.",
+          "site_destinations": {
+            "theory": "modules/module-01.html#section-3",
+            "knowledge_check": "modules/module-01.html#section-3",
+            "written_response": "modules/module-01.html#section-3",
+            "activity": "activities.html#activity-1"
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "module-02",
+      "title": "2. Safe textile work",
+      "timing": "Week 2; approximately 180 minutes, timetable Teacher to confirm",
+      "outcome_codes": [
+        "TE4-SAF-01",
+        "TE4-MSC-01",
+        "TE4-PPM-01"
+      ],
+      "sections": [
+        {
+          "section_id": "module-02-section-1",
+          "title": "2.1 Practical-room routines",
+          "content_descriptors": [
+            "Use tools, materials, techniques, technologies and processes to develop practical skills; demonstrate safe practices when selecting and using materials, technologies and processes."
+          ],
+          "source_ids": [
+            "nesa-materials",
+            "bucket-course"
+          ],
+          "learning_intention": "Select specific controls for textile-room hazards and demonstrate readiness for teacher-supervised practical work.",
+          "learning_sequence": "Explicitly teach entry routines, workstation organisation, sharp and hot tool controls and sewing-machine stop-work triggers. Students analyse hazards, justify tool selection and rehearse the teacher-approved readiness routine.",
+          "working_scientifically": "Not applicable to Technology 7\u20138; design and production process: Researching risks; selecting controls; planning a safe workflow.",
+          "evidence": "Activity 2 safety and tools audit; readiness explanations; three written responses; 30 section checks.",
+          "formative_checks": "10 adjacent section questions plus one guided written response",
+          "adjustments": "Provide labelled tool images, visual safety sequences, repeated demonstration and individual checking before equipment use.",
+          "resources": "Module 2 webpage and PowerPoint, safe-workstation image, machine-parts visual, videos and Activity 2.",
+          "site_destinations": {
+            "theory": "modules/module-02.html#section-1",
+            "knowledge_check": "modules/module-02.html#section-1",
+            "written_response": "modules/module-02.html#section-1",
+            "activity": "activities.html#activity-2"
+          }
+        },
+        {
+          "section_id": "module-02-section-2",
+          "title": "2.2 Tools, pins, shears and irons",
+          "content_descriptors": [
+            "Use tools, materials, techniques, technologies and processes to develop practical skills; demonstrate safe practices when selecting and using materials, technologies and processes."
+          ],
+          "source_ids": [
+            "nesa-materials",
+            "bucket-course"
+          ],
+          "learning_intention": "Select specific controls for textile-room hazards and demonstrate readiness for teacher-supervised practical work.",
+          "learning_sequence": "Explicitly teach entry routines, workstation organisation, sharp and hot tool controls and sewing-machine stop-work triggers. Students analyse hazards, justify tool selection and rehearse the teacher-approved readiness routine.",
+          "working_scientifically": "Not applicable to Technology 7\u20138; design and production process: Researching risks; selecting controls; planning a safe workflow.",
+          "evidence": "Activity 2 safety and tools audit; readiness explanations; three written responses; 30 section checks.",
+          "formative_checks": "10 adjacent section questions plus one guided written response",
+          "adjustments": "Provide labelled tool images, visual safety sequences, repeated demonstration and individual checking before equipment use.",
+          "resources": "Module 2 webpage and PowerPoint, safe-workstation image, machine-parts visual, videos and Activity 2.",
+          "site_destinations": {
+            "theory": "modules/module-02.html#section-2",
+            "knowledge_check": "modules/module-02.html#section-2",
+            "written_response": "modules/module-02.html#section-2",
+            "activity": "activities.html#activity-2"
+          }
+        },
+        {
+          "section_id": "module-02-section-3",
+          "title": "2.3 Sewing-machine safety",
+          "content_descriptors": [
+            "Use tools, materials, techniques, technologies and processes to develop practical skills; demonstrate safe practices when selecting and using materials, technologies and processes."
+          ],
+          "source_ids": [
+            "nesa-materials",
+            "bucket-course"
+          ],
+          "learning_intention": "Select specific controls for textile-room hazards and demonstrate readiness for teacher-supervised practical work.",
+          "learning_sequence": "Explicitly teach entry routines, workstation organisation, sharp and hot tool controls and sewing-machine stop-work triggers. Students analyse hazards, justify tool selection and rehearse the teacher-approved readiness routine.",
+          "working_scientifically": "Not applicable to Technology 7\u20138; design and production process: Researching risks; selecting controls; planning a safe workflow.",
+          "evidence": "Activity 2 safety and tools audit; readiness explanations; three written responses; 30 section checks.",
+          "formative_checks": "10 adjacent section questions plus one guided written response",
+          "adjustments": "Provide labelled tool images, visual safety sequences, repeated demonstration and individual checking before equipment use.",
+          "resources": "Module 2 webpage and PowerPoint, safe-workstation image, machine-parts visual, videos and Activity 2.",
+          "site_destinations": {
+            "theory": "modules/module-02.html#section-3",
+            "knowledge_check": "modules/module-02.html#section-3",
+            "written_response": "modules/module-02.html#section-3",
+            "activity": "activities.html#activity-2"
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "module-03",
+      "title": "3. Visual messages",
+      "timing": "Week 3; approximately 180 minutes, timetable Teacher to confirm",
+      "outcome_codes": [
+        "TE4-DES-01",
+        "TE4-PDP-01",
+        "TE4-DIG-01"
+      ],
+      "sections": [
+        {
+          "section_id": "module-03-section-1",
+          "title": "3.1 Colour communicates",
+          "content_descriptors": [
+            "Use sketching and drawing techniques to communicate ideas and solutions; communicate development using annotations; outline factors affecting product design."
+          ],
+          "source_ids": [
+            "nesa-materials",
+            "bucket-course"
+          ],
+          "learning_intention": "Use colour, imagery and technique deliberately to communicate a clear, respectful message on fabric.",
+          "learning_sequence": "Analyse colour meanings as context-dependent, investigate symbol clarity and ownership, and compare decorative techniques as communication choices. Students develop an original palette, symbol and technique proposal.",
+          "working_scientifically": "Not applicable to Technology 7\u20138; design and production process: Researching visual precedents; generating and communicating early ideas.",
+          "evidence": "Activity 3 visual language board; palette, symbol and technique explanations; section checks and written responses.",
+          "formative_checks": "10 adjacent section questions plus one guided written response",
+          "adjustments": "Offer high-contrast examples, symbol simplification templates, curated references and alternatives to fine-motor drawing.",
+          "resources": "Module 3 webpage and PowerPoint, colour and symbol visuals, videos and Activity 3.",
+          "site_destinations": {
+            "theory": "modules/module-03.html#section-1",
+            "knowledge_check": "modules/module-03.html#section-1",
+            "written_response": "modules/module-03.html#section-1",
+            "activity": "activities.html#activity-3"
+          }
+        },
+        {
+          "section_id": "module-03-section-2",
+          "title": "3.2 Symbols and imagery",
+          "content_descriptors": [
+            "Use sketching and drawing techniques to communicate ideas and solutions; communicate development using annotations; outline factors affecting product design."
+          ],
+          "source_ids": [
+            "nesa-materials",
+            "bucket-course"
+          ],
+          "learning_intention": "Use colour, imagery and technique deliberately to communicate a clear, respectful message on fabric.",
+          "learning_sequence": "Analyse colour meanings as context-dependent, investigate symbol clarity and ownership, and compare decorative techniques as communication choices. Students develop an original palette, symbol and technique proposal.",
+          "working_scientifically": "Not applicable to Technology 7\u20138; design and production process: Researching visual precedents; generating and communicating early ideas.",
+          "evidence": "Activity 3 visual language board; palette, symbol and technique explanations; section checks and written responses.",
+          "formative_checks": "10 adjacent section questions plus one guided written response",
+          "adjustments": "Offer high-contrast examples, symbol simplification templates, curated references and alternatives to fine-motor drawing.",
+          "resources": "Module 3 webpage and PowerPoint, colour and symbol visuals, videos and Activity 3.",
+          "site_destinations": {
+            "theory": "modules/module-03.html#section-2",
+            "knowledge_check": "modules/module-03.html#section-2",
+            "written_response": "modules/module-03.html#section-2",
+            "activity": "activities.html#activity-3"
+          }
+        },
+        {
+          "section_id": "module-03-section-3",
+          "title": "3.3 Decorative techniques carry meaning",
+          "content_descriptors": [
+            "Use sketching and drawing techniques to communicate ideas and solutions; communicate development using annotations; outline factors affecting product design."
+          ],
+          "source_ids": [
+            "nesa-materials",
+            "bucket-course"
+          ],
+          "learning_intention": "Use colour, imagery and technique deliberately to communicate a clear, respectful message on fabric.",
+          "learning_sequence": "Analyse colour meanings as context-dependent, investigate symbol clarity and ownership, and compare decorative techniques as communication choices. Students develop an original palette, symbol and technique proposal.",
+          "working_scientifically": "Not applicable to Technology 7\u20138; design and production process: Researching visual precedents; generating and communicating early ideas.",
+          "evidence": "Activity 3 visual language board; palette, symbol and technique explanations; section checks and written responses.",
+          "formative_checks": "10 adjacent section questions plus one guided written response",
+          "adjustments": "Offer high-contrast examples, symbol simplification templates, curated references and alternatives to fine-motor drawing.",
+          "resources": "Module 3 webpage and PowerPoint, colour and symbol visuals, videos and Activity 3.",
+          "site_destinations": {
+            "theory": "modules/module-03.html#section-3",
+            "knowledge_check": "modules/module-03.html#section-3",
+            "written_response": "modules/module-03.html#section-3",
+            "activity": "activities.html#activity-3"
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "module-04",
+      "title": "4. Define the challenge",
+      "timing": "Week 4; approximately 180 minutes, timetable Teacher to confirm",
+      "outcome_codes": [
+        "TE4-DES-01",
+        "TE4-PDP-01",
+        "TE4-PPM-01"
+      ],
+      "sections": [
+        {
+          "section_id": "module-04-section-1",
+          "title": "4.1 Read the design situation",
+          "content_descriptors": [
+            "Outline factors affecting the design of products and solutions; apply critical and creative thinking to assess ideas and quality solutions; document design processes."
+          ],
+          "source_ids": [
+            "nesa-materials",
+            "bucket-course"
+          ],
+          "learning_intention": "Convert the project situation into a user-focused brief with observable criteria and realistic constraints.",
+          "learning_sequence": "Model the difference between situation, brief, criteria and constraints. Students identify the intended user and cause, rewrite the brief in their own words and establish measurable or observable success criteria.",
+          "working_scientifically": "Not applicable to Technology 7\u20138; design and production process: Identifying and defining; establishing criteria for success; recording constraints.",
+          "evidence": "Activity 4 brief builder; criteria and constraints; three written responses; section checks.",
+          "formative_checks": "10 adjacent section questions plus one guided written response",
+          "adjustments": "Use worked and non-worked examples, sentence starters, oral rehearsal and criteria sorting cards.",
+          "resources": "Module 4 webpage and PowerPoint, situation and brief visuals, videos and Activity 4.",
+          "site_destinations": {
+            "theory": "modules/module-04.html#section-1",
+            "knowledge_check": "modules/module-04.html#section-1",
+            "written_response": "modules/module-04.html#section-1",
+            "activity": "activities.html#activity-4"
+          }
+        },
+        {
+          "section_id": "module-04-section-2",
+          "title": "4.2 Write a design brief",
+          "content_descriptors": [
+            "Outline factors affecting the design of products and solutions; apply critical and creative thinking to assess ideas and quality solutions; document design processes."
+          ],
+          "source_ids": [
+            "nesa-materials",
+            "bucket-course"
+          ],
+          "learning_intention": "Convert the project situation into a user-focused brief with observable criteria and realistic constraints.",
+          "learning_sequence": "Model the difference between situation, brief, criteria and constraints. Students identify the intended user and cause, rewrite the brief in their own words and establish measurable or observable success criteria.",
+          "working_scientifically": "Not applicable to Technology 7\u20138; design and production process: Identifying and defining; establishing criteria for success; recording constraints.",
+          "evidence": "Activity 4 brief builder; criteria and constraints; three written responses; section checks.",
+          "formative_checks": "10 adjacent section questions plus one guided written response",
+          "adjustments": "Use worked and non-worked examples, sentence starters, oral rehearsal and criteria sorting cards.",
+          "resources": "Module 4 webpage and PowerPoint, situation and brief visuals, videos and Activity 4.",
+          "site_destinations": {
+            "theory": "modules/module-04.html#section-2",
+            "knowledge_check": "modules/module-04.html#section-2",
+            "written_response": "modules/module-04.html#section-2",
+            "activity": "activities.html#activity-4"
+          }
+        },
+        {
+          "section_id": "module-04-section-3",
+          "title": "4.3 Criteria and constraints",
+          "content_descriptors": [
+            "Outline factors affecting the design of products and solutions; apply critical and creative thinking to assess ideas and quality solutions; document design processes."
+          ],
+          "source_ids": [
+            "nesa-materials",
+            "bucket-course"
+          ],
+          "learning_intention": "Convert the project situation into a user-focused brief with observable criteria and realistic constraints.",
+          "learning_sequence": "Model the difference between situation, brief, criteria and constraints. Students identify the intended user and cause, rewrite the brief in their own words and establish measurable or observable success criteria.",
+          "working_scientifically": "Not applicable to Technology 7\u20138; design and production process: Identifying and defining; establishing criteria for success; recording constraints.",
+          "evidence": "Activity 4 brief builder; criteria and constraints; three written responses; section checks.",
+          "formative_checks": "10 adjacent section questions plus one guided written response",
+          "adjustments": "Use worked and non-worked examples, sentence starters, oral rehearsal and criteria sorting cards.",
+          "resources": "Module 4 webpage and PowerPoint, situation and brief visuals, videos and Activity 4.",
+          "site_destinations": {
+            "theory": "modules/module-04.html#section-3",
+            "knowledge_check": "modules/module-04.html#section-3",
+            "written_response": "modules/module-04.html#section-3",
+            "activity": "activities.html#activity-4"
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "module-05",
+      "title": "5. Develop and select ideas",
+      "timing": "Week 5; approximately 180 minutes, timetable Teacher to confirm",
+      "outcome_codes": [
+        "TE4-DES-01",
+        "TE4-PPM-01",
+        "TE4-PDP-01"
+      ],
+      "sections": [
+        {
+          "section_id": "module-05-section-1",
+          "title": "5.1 Mood boards with direction",
+          "content_descriptors": [
+            "Apply critical and creative thinking to assess ideas and quality solutions; use sketching and drawing techniques; communicate development using annotations."
+          ],
+          "source_ids": [
+            "nesa-materials",
+            "bucket-course"
+          ],
+          "learning_intention": "Generate distinct concepts, communicate reversible ideas and justify a selected direction using evidence.",
+          "learning_sequence": "Build a curated mood board, generate genuinely different concepts for both hat sides, annotate material and technique decisions, collect feedback and use PMI to select and refine the strongest concept.",
+          "working_scientifically": "Not applicable to Technology 7\u20138; design and production process: Generating; communicating; comparing; selecting and refining.",
+          "evidence": "Activity 5 concept studio; mood board; annotated concepts; PMI; selection justification; section checks.",
+          "formative_checks": "10 adjacent section questions plus one guided written response",
+          "adjustments": "Provide drawing templates, model annotations, speech-to-text, oral explanation and a simplified comparison grid.",
+          "resources": "Module 5 webpage and PowerPoint, mood-board and design-sketch visuals, videos and Activity 5.",
+          "site_destinations": {
+            "theory": "modules/module-05.html#section-1",
+            "knowledge_check": "modules/module-05.html#section-1",
+            "written_response": "modules/module-05.html#section-1",
+            "activity": "activities.html#activity-5"
+          }
+        },
+        {
+          "section_id": "module-05-section-2",
+          "title": "5.2 Distinct annotated concepts",
+          "content_descriptors": [
+            "Apply critical and creative thinking to assess ideas and quality solutions; use sketching and drawing techniques; communicate development using annotations."
+          ],
+          "source_ids": [
+            "nesa-materials",
+            "bucket-course"
+          ],
+          "learning_intention": "Generate distinct concepts, communicate reversible ideas and justify a selected direction using evidence.",
+          "learning_sequence": "Build a curated mood board, generate genuinely different concepts for both hat sides, annotate material and technique decisions, collect feedback and use PMI to select and refine the strongest concept.",
+          "working_scientifically": "Not applicable to Technology 7\u20138; design and production process: Generating; communicating; comparing; selecting and refining.",
+          "evidence": "Activity 5 concept studio; mood board; annotated concepts; PMI; selection justification; section checks.",
+          "formative_checks": "10 adjacent section questions plus one guided written response",
+          "adjustments": "Provide drawing templates, model annotations, speech-to-text, oral explanation and a simplified comparison grid.",
+          "resources": "Module 5 webpage and PowerPoint, mood-board and design-sketch visuals, videos and Activity 5.",
+          "site_destinations": {
+            "theory": "modules/module-05.html#section-2",
+            "knowledge_check": "modules/module-05.html#section-2",
+            "written_response": "modules/module-05.html#section-2",
+            "activity": "activities.html#activity-5"
+          }
+        },
+        {
+          "section_id": "module-05-section-3",
+          "title": "5.3 Feedback, PMI and final choice",
+          "content_descriptors": [
+            "Apply critical and creative thinking to assess ideas and quality solutions; use sketching and drawing techniques; communicate development using annotations."
+          ],
+          "source_ids": [
+            "nesa-materials",
+            "bucket-course"
+          ],
+          "learning_intention": "Generate distinct concepts, communicate reversible ideas and justify a selected direction using evidence.",
+          "learning_sequence": "Build a curated mood board, generate genuinely different concepts for both hat sides, annotate material and technique decisions, collect feedback and use PMI to select and refine the strongest concept.",
+          "working_scientifically": "Not applicable to Technology 7\u20138; design and production process: Generating; communicating; comparing; selecting and refining.",
+          "evidence": "Activity 5 concept studio; mood board; annotated concepts; PMI; selection justification; section checks.",
+          "formative_checks": "10 adjacent section questions plus one guided written response",
+          "adjustments": "Provide drawing templates, model annotations, speech-to-text, oral explanation and a simplified comparison grid.",
+          "resources": "Module 5 webpage and PowerPoint, mood-board and design-sketch visuals, videos and Activity 5.",
+          "site_destinations": {
+            "theory": "modules/module-05.html#section-3",
+            "knowledge_check": "modules/module-05.html#section-3",
+            "written_response": "modules/module-05.html#section-3",
+            "activity": "activities.html#activity-5"
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "module-06",
+      "title": "6. Fibres, fabrics and sustainability",
+      "timing": "Week 6; approximately 180 minutes, timetable Teacher to confirm",
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-SDP-01",
+        "TE4-PDP-01",
+        "TE4-DIG-01"
+      ],
+      "sections": [
+        {
+          "section_id": "module-06-section-1",
+          "title": "6.1 Fibre, yarn and fabric",
+          "content_descriptors": [
+            "Identify characteristics and properties of materials; explain how material properties and production techniques contribute to quality; compare sustainable sourcing practices."
+          ],
+          "source_ids": [
+            "nesa-materials",
+            "bucket-course"
+          ],
+          "learning_intention": "Connect fibre and fabric properties to hat performance and make evidence-based sustainability decisions.",
+          "learning_sequence": "Teach fibre-yarn-fabric relationships and compare woven structures, cotton, polyester and blends. Students connect performance and care properties to the approved hat materials and evaluate practical waste and durability actions.",
+          "working_scientifically": "Not applicable to Technology 7\u20138; design and production process: Researching materials; comparing properties; evaluating sourcing and life-cycle implications.",
+          "evidence": "Activity 6 material decision report; cotton/polyester comparison; sustainability actions; section checks.",
+          "formative_checks": "10 adjacent section questions plus one guided written response",
+          "adjustments": "Use tactile samples, property cards, comparison frames, accessible texts and teacher-curated source extracts.",
+          "resources": "Module 6 webpage and PowerPoint, fibre comparison visual, videos and Activity 6.",
+          "site_destinations": {
+            "theory": "modules/module-06.html#section-1",
+            "knowledge_check": "modules/module-06.html#section-1",
+            "written_response": "modules/module-06.html#section-1",
+            "activity": "activities.html#activity-6"
+          }
+        },
+        {
+          "section_id": "module-06-section-2",
+          "title": "6.2 Cotton and polyester",
+          "content_descriptors": [
+            "Identify characteristics and properties of materials; explain how material properties and production techniques contribute to quality; compare sustainable sourcing practices."
+          ],
+          "source_ids": [
+            "nesa-materials",
+            "bucket-course"
+          ],
+          "learning_intention": "Connect fibre and fabric properties to hat performance and make evidence-based sustainability decisions.",
+          "learning_sequence": "Teach fibre-yarn-fabric relationships and compare woven structures, cotton, polyester and blends. Students connect performance and care properties to the approved hat materials and evaluate practical waste and durability actions.",
+          "working_scientifically": "Not applicable to Technology 7\u20138; design and production process: Researching materials; comparing properties; evaluating sourcing and life-cycle implications.",
+          "evidence": "Activity 6 material decision report; cotton/polyester comparison; sustainability actions; section checks.",
+          "formative_checks": "10 adjacent section questions plus one guided written response",
+          "adjustments": "Use tactile samples, property cards, comparison frames, accessible texts and teacher-curated source extracts.",
+          "resources": "Module 6 webpage and PowerPoint, fibre comparison visual, videos and Activity 6.",
+          "site_destinations": {
+            "theory": "modules/module-06.html#section-2",
+            "knowledge_check": "modules/module-06.html#section-2",
+            "written_response": "modules/module-06.html#section-2",
+            "activity": "activities.html#activity-6"
+          }
+        },
+        {
+          "section_id": "module-06-section-3",
+          "title": "6.3 Sustainability needs evidence",
+          "content_descriptors": [
+            "Identify characteristics and properties of materials; explain how material properties and production techniques contribute to quality; compare sustainable sourcing practices."
+          ],
+          "source_ids": [
+            "nesa-materials",
+            "bucket-course"
+          ],
+          "learning_intention": "Connect fibre and fabric properties to hat performance and make evidence-based sustainability decisions.",
+          "learning_sequence": "Teach fibre-yarn-fabric relationships and compare woven structures, cotton, polyester and blends. Students connect performance and care properties to the approved hat materials and evaluate practical waste and durability actions.",
+          "working_scientifically": "Not applicable to Technology 7\u20138; design and production process: Researching materials; comparing properties; evaluating sourcing and life-cycle implications.",
+          "evidence": "Activity 6 material decision report; cotton/polyester comparison; sustainability actions; section checks.",
+          "formative_checks": "10 adjacent section questions plus one guided written response",
+          "adjustments": "Use tactile samples, property cards, comparison frames, accessible texts and teacher-curated source extracts.",
+          "resources": "Module 6 webpage and PowerPoint, fibre comparison visual, videos and Activity 6.",
+          "site_destinations": {
+            "theory": "modules/module-06.html#section-3",
+            "knowledge_check": "modules/module-06.html#section-3",
+            "written_response": "modules/module-06.html#section-3",
+            "activity": "activities.html#activity-6"
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "module-07",
+      "title": "7. Decorative technique trials",
+      "timing": "Week 7; approximately 180 minutes, timetable Teacher to confirm",
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-SAF-01",
+        "TE4-DES-01",
+        "TE4-PDP-01"
+      ],
+      "sections": [
+        {
+          "section_id": "module-07-section-1",
+          "title": "7.1 Sampling before production",
+          "content_descriptors": [
+            "Create prototypes, models and samples to test materials and production processes; justify selection and use of tools, materials, techniques and technologies."
+          ],
+          "source_ids": [
+            "nesa-materials",
+            "bucket-course"
+          ],
+          "learning_intention": "Conduct controlled decorative trials and justify the technique selected for the final fabric.",
+          "learning_sequence": "Model a fair sample test and evidence log. Students trial teacher-approved decorative techniques on comparable fabric, record observations, identify a success criterion and select or refine a method for the final hat.",
+          "working_scientifically": "Not applicable to Technology 7\u20138; design and production process: Prototyping; testing; recording; comparing; refining.",
+          "evidence": "Activity 7 technique trial log; labelled samples or photographs; evaluation and next-step decision; section checks.",
+          "formative_checks": "10 adjacent section questions plus one guided written response",
+          "adjustments": "Offer pre-cut sample pieces, larger-scale trials, visual step cards, alternative recording modes and additional supervised practice.",
+          "resources": "Module 7 webpage and PowerPoint, technique logbook visual, videos and Activity 7.",
+          "site_destinations": {
+            "theory": "modules/module-07.html#section-1",
+            "knowledge_check": "modules/module-07.html#section-1",
+            "written_response": "modules/module-07.html#section-1",
+            "activity": "activities.html#activity-7"
+          }
+        },
+        {
+          "section_id": "module-07-section-2",
+          "title": "7.2 Appliqu\u00e9, embroidery and couching",
+          "content_descriptors": [
+            "Create prototypes, models and samples to test materials and production processes; justify selection and use of tools, materials, techniques and technologies."
+          ],
+          "source_ids": [
+            "nesa-materials",
+            "bucket-course"
+          ],
+          "learning_intention": "Conduct controlled decorative trials and justify the technique selected for the final fabric.",
+          "learning_sequence": "Model a fair sample test and evidence log. Students trial teacher-approved decorative techniques on comparable fabric, record observations, identify a success criterion and select or refine a method for the final hat.",
+          "working_scientifically": "Not applicable to Technology 7\u20138; design and production process: Prototyping; testing; recording; comparing; refining.",
+          "evidence": "Activity 7 technique trial log; labelled samples or photographs; evaluation and next-step decision; section checks.",
+          "formative_checks": "10 adjacent section questions plus one guided written response",
+          "adjustments": "Offer pre-cut sample pieces, larger-scale trials, visual step cards, alternative recording modes and additional supervised practice.",
+          "resources": "Module 7 webpage and PowerPoint, technique logbook visual, videos and Activity 7.",
+          "site_destinations": {
+            "theory": "modules/module-07.html#section-2",
+            "knowledge_check": "modules/module-07.html#section-2",
+            "written_response": "modules/module-07.html#section-2",
+            "activity": "activities.html#activity-7"
+          }
+        },
+        {
+          "section_id": "module-07-section-3",
+          "title": "7.3 Surface colour techniques",
+          "content_descriptors": [
+            "Create prototypes, models and samples to test materials and production processes; justify selection and use of tools, materials, techniques and technologies."
+          ],
+          "source_ids": [
+            "nesa-materials",
+            "bucket-course"
+          ],
+          "learning_intention": "Conduct controlled decorative trials and justify the technique selected for the final fabric.",
+          "learning_sequence": "Model a fair sample test and evidence log. Students trial teacher-approved decorative techniques on comparable fabric, record observations, identify a success criterion and select or refine a method for the final hat.",
+          "working_scientifically": "Not applicable to Technology 7\u20138; design and production process: Prototyping; testing; recording; comparing; refining.",
+          "evidence": "Activity 7 technique trial log; labelled samples or photographs; evaluation and next-step decision; section checks.",
+          "formative_checks": "10 adjacent section questions plus one guided written response",
+          "adjustments": "Offer pre-cut sample pieces, larger-scale trials, visual step cards, alternative recording modes and additional supervised practice.",
+          "resources": "Module 7 webpage and PowerPoint, technique logbook visual, videos and Activity 7.",
+          "site_destinations": {
+            "theory": "modules/module-07.html#section-3",
+            "knowledge_check": "modules/module-07.html#section-3",
+            "written_response": "modules/module-07.html#section-3",
+            "activity": "activities.html#activity-7"
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "module-08",
+      "title": "8. Prepare for production",
+      "timing": "Week 8; approximately 180 minutes, timetable Teacher to confirm",
+      "outcome_codes": [
+        "TE4-PPM-01",
+        "TE4-DES-01",
+        "TE4-SAF-01",
+        "TE4-MSC-01"
+      ],
+      "sections": [
+        {
+          "section_id": "module-08-section-1",
+          "title": "8.1 Read the approved pattern",
+          "content_descriptors": [
+            "Select tools, materials, techniques, technologies and processes to make solutions; document design processes; justify selected resources."
+          ],
+          "source_ids": [
+            "nesa-materials",
+            "bucket-course"
+          ],
+          "learning_intention": "Interpret the approved pattern and prepare an ordered, resourced and safety-aware production plan.",
+          "learning_sequence": "Teacher introduces the authorised pattern and local construction sequence. Students interpret symbols and grain direction, plan teacher-approved layout and cutting, identify resources and create an action plan with safety, quality and evidence checkpoints.",
+          "working_scientifically": "Not applicable to Technology 7\u20138; design and production process: Planning; sequencing; resourcing; communicating production information.",
+          "evidence": "Activity 8 production-readiness plan; pattern-symbol explanation; layout and resource reasoning; section checks.",
+          "formative_checks": "10 adjacent section questions plus one guided written response",
+          "adjustments": "Provide enlarged pattern symbols, colour-coded pieces, tactile orientation cues, modelled sequencing and calculator support where appropriate.",
+          "resources": "Module 8 webpage and PowerPoint, approved pattern supplied by teacher, pattern-symbol and action-plan visuals, videos and Activity 8.",
+          "site_destinations": {
+            "theory": "modules/module-08.html#section-1",
+            "knowledge_check": "modules/module-08.html#section-1",
+            "written_response": "modules/module-08.html#section-1",
+            "activity": "activities.html#activity-8"
+          }
+        },
+        {
+          "section_id": "module-08-section-2",
+          "title": "8.2 Prepare fabric accurately",
+          "content_descriptors": [
+            "Select tools, materials, techniques, technologies and processes to make solutions; document design processes; justify selected resources."
+          ],
+          "source_ids": [
+            "nesa-materials",
+            "bucket-course"
+          ],
+          "learning_intention": "Interpret the approved pattern and prepare an ordered, resourced and safety-aware production plan.",
+          "learning_sequence": "Teacher introduces the authorised pattern and local construction sequence. Students interpret symbols and grain direction, plan teacher-approved layout and cutting, identify resources and create an action plan with safety, quality and evidence checkpoints.",
+          "working_scientifically": "Not applicable to Technology 7\u20138; design and production process: Planning; sequencing; resourcing; communicating production information.",
+          "evidence": "Activity 8 production-readiness plan; pattern-symbol explanation; layout and resource reasoning; section checks.",
+          "formative_checks": "10 adjacent section questions plus one guided written response",
+          "adjustments": "Provide enlarged pattern symbols, colour-coded pieces, tactile orientation cues, modelled sequencing and calculator support where appropriate.",
+          "resources": "Module 8 webpage and PowerPoint, approved pattern supplied by teacher, pattern-symbol and action-plan visuals, videos and Activity 8.",
+          "site_destinations": {
+            "theory": "modules/module-08.html#section-2",
+            "knowledge_check": "modules/module-08.html#section-2",
+            "written_response": "modules/module-08.html#section-2",
+            "activity": "activities.html#activity-8"
+          }
+        },
+        {
+          "section_id": "module-08-section-3",
+          "title": "8.3 Build an action plan",
+          "content_descriptors": [
+            "Select tools, materials, techniques, technologies and processes to make solutions; document design processes; justify selected resources."
+          ],
+          "source_ids": [
+            "nesa-materials",
+            "bucket-course"
+          ],
+          "learning_intention": "Interpret the approved pattern and prepare an ordered, resourced and safety-aware production plan.",
+          "learning_sequence": "Teacher introduces the authorised pattern and local construction sequence. Students interpret symbols and grain direction, plan teacher-approved layout and cutting, identify resources and create an action plan with safety, quality and evidence checkpoints.",
+          "working_scientifically": "Not applicable to Technology 7\u20138; design and production process: Planning; sequencing; resourcing; communicating production information.",
+          "evidence": "Activity 8 production-readiness plan; pattern-symbol explanation; layout and resource reasoning; section checks.",
+          "formative_checks": "10 adjacent section questions plus one guided written response",
+          "adjustments": "Provide enlarged pattern symbols, colour-coded pieces, tactile orientation cues, modelled sequencing and calculator support where appropriate.",
+          "resources": "Module 8 webpage and PowerPoint, approved pattern supplied by teacher, pattern-symbol and action-plan visuals, videos and Activity 8.",
+          "site_destinations": {
+            "theory": "modules/module-08.html#section-3",
+            "knowledge_check": "modules/module-08.html#section-3",
+            "written_response": "modules/module-08.html#section-3",
+            "activity": "activities.html#activity-8"
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "module-09",
+      "title": "9. Produce the reversible hat",
+      "timing": "Week 9; approximately 180 minutes, timetable Teacher to confirm",
+      "outcome_codes": [
+        "TE4-SAF-01",
+        "TE4-PPM-01",
+        "TE4-PDP-01",
+        "TE4-DES-01",
+        "TE4-DIG-01"
+      ],
+      "sections": [
+        {
+          "section_id": "module-09-section-1",
+          "title": "9.1 Follow the approved sequence",
+          "content_descriptors": [
+            "Use and select tools, materials, techniques, technologies and processes; demonstrate safe practices; document design processes; collaborate to test, modify and improve quality."
+          ],
+          "source_ids": [
+            "nesa-materials",
+            "bucket-course"
+          ],
+          "learning_intention": "Produce the hat through a teacher-approved sequence while managing safety, quality, time and evidence.",
+          "learning_sequence": "Confirm individual readiness and local controls. Students follow the demonstrated sequence, stop at teacher checkpoints, monitor stitch and seam quality, document progress and use observe-stop-diagnose-act-recheck to address problems safely.",
+          "working_scientifically": "Not applicable to Technology 7\u20138; design and production process: Producing; monitoring; quality control; safe problem-solving; documenting.",
+          "evidence": "Activity 9 action plan and progress log; teacher practical observations; process photographs; documented correction cycle.",
+          "formative_checks": "10 adjacent section questions plus one guided written response",
+          "adjustments": "Provide a visual workplan, accessible workstation roles, frequent checkpoints, additional supervised time and alternatives for recording evidence.",
+          "resources": "Module 9 webpage and PowerPoint, teacher-source construction photographs, approved pattern and demonstrations, videos and Activity 9.",
+          "site_destinations": {
+            "theory": "modules/module-09.html#section-1",
+            "knowledge_check": "modules/module-09.html#section-1",
+            "written_response": "modules/module-09.html#section-1",
+            "activity": "activities.html#activity-9"
+          }
+        },
+        {
+          "section_id": "module-09-section-2",
+          "title": "9.2 Control quality as you work",
+          "content_descriptors": [
+            "Use and select tools, materials, techniques, technologies and processes; demonstrate safe practices; document design processes; collaborate to test, modify and improve quality."
+          ],
+          "source_ids": [
+            "nesa-materials",
+            "bucket-course"
+          ],
+          "learning_intention": "Produce the hat through a teacher-approved sequence while managing safety, quality, time and evidence.",
+          "learning_sequence": "Confirm individual readiness and local controls. Students follow the demonstrated sequence, stop at teacher checkpoints, monitor stitch and seam quality, document progress and use observe-stop-diagnose-act-recheck to address problems safely.",
+          "working_scientifically": "Not applicable to Technology 7\u20138; design and production process: Producing; monitoring; quality control; safe problem-solving; documenting.",
+          "evidence": "Activity 9 action plan and progress log; teacher practical observations; process photographs; documented correction cycle.",
+          "formative_checks": "10 adjacent section questions plus one guided written response",
+          "adjustments": "Provide a visual workplan, accessible workstation roles, frequent checkpoints, additional supervised time and alternatives for recording evidence.",
+          "resources": "Module 9 webpage and PowerPoint, teacher-source construction photographs, approved pattern and demonstrations, videos and Activity 9.",
+          "site_destinations": {
+            "theory": "modules/module-09.html#section-2",
+            "knowledge_check": "modules/module-09.html#section-2",
+            "written_response": "modules/module-09.html#section-2",
+            "activity": "activities.html#activity-9"
+          }
+        },
+        {
+          "section_id": "module-09-section-3",
+          "title": "9.3 Solve problems safely",
+          "content_descriptors": [
+            "Use and select tools, materials, techniques, technologies and processes; demonstrate safe practices; document design processes; collaborate to test, modify and improve quality."
+          ],
+          "source_ids": [
+            "nesa-materials",
+            "bucket-course"
+          ],
+          "learning_intention": "Produce the hat through a teacher-approved sequence while managing safety, quality, time and evidence.",
+          "learning_sequence": "Confirm individual readiness and local controls. Students follow the demonstrated sequence, stop at teacher checkpoints, monitor stitch and seam quality, document progress and use observe-stop-diagnose-act-recheck to address problems safely.",
+          "working_scientifically": "Not applicable to Technology 7\u20138; design and production process: Producing; monitoring; quality control; safe problem-solving; documenting.",
+          "evidence": "Activity 9 action plan and progress log; teacher practical observations; process photographs; documented correction cycle.",
+          "formative_checks": "10 adjacent section questions plus one guided written response",
+          "adjustments": "Provide a visual workplan, accessible workstation roles, frequent checkpoints, additional supervised time and alternatives for recording evidence.",
+          "resources": "Module 9 webpage and PowerPoint, teacher-source construction photographs, approved pattern and demonstrations, videos and Activity 9.",
+          "site_destinations": {
+            "theory": "modules/module-09.html#section-3",
+            "knowledge_check": "modules/module-09.html#section-3",
+            "written_response": "modules/module-09.html#section-3",
+            "activity": "activities.html#activity-9"
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "module-10",
+      "title": "10. Evaluate and communicate",
+      "timing": "Week 10; approximately 180 minutes, timetable Teacher to confirm",
+      "outcome_codes": [
+        "TE4-DES-01",
+        "TE4-SDP-01",
+        "TE4-PDP-01",
+        "TE4-DIG-01"
+      ],
+      "sections": [
+        {
+          "section_id": "module-10-section-1",
+          "title": "10.1 Evaluate against criteria",
+          "content_descriptors": [
+            "Evaluate ideas and solutions using written, visual, verbal or multimodal forms; use factors affecting design to evaluate quality; justify selection and use of materials and processes."
+          ],
+          "source_ids": [
+            "nesa-materials",
+            "bucket-course"
+          ],
+          "learning_intention": "Evaluate the finished solution using evidence and communicate specific improvements and design learning.",
+          "learning_sequence": "Return to the original criteria and compare claims with the real hat and process evidence. Students prepare accurate photographs, evaluate function, finish, message and sustainability, propose improvements and complete a concise designer statement.",
+          "working_scientifically": "Not applicable to Technology 7\u20138; design and production process: Testing; evaluating; reflecting; communicating improvements.",
+          "evidence": "Activity 10 evaluation and designer statement; completed folio; final product and process evidence; section checks.",
+          "formative_checks": "10 adjacent section questions plus one guided written response",
+          "adjustments": "Use criterion-evidence-judgement-improvement frames, oral planning, speech-to-text, labelled photographs and chunked evaluation categories.",
+          "resources": "Module 10 webpage and PowerPoint, evaluation and designer-statement visuals, videos, Activity 10 and folio.",
+          "site_destinations": {
+            "theory": "modules/module-10.html#section-1",
+            "knowledge_check": "modules/module-10.html#section-1",
+            "written_response": "modules/module-10.html#section-1",
+            "activity": "activities.html#activity-10"
+          }
+        },
+        {
+          "section_id": "module-10-section-2",
+          "title": "10.2 Present real evidence",
+          "content_descriptors": [
+            "Evaluate ideas and solutions using written, visual, verbal or multimodal forms; use factors affecting design to evaluate quality; justify selection and use of materials and processes."
+          ],
+          "source_ids": [
+            "nesa-materials",
+            "bucket-course"
+          ],
+          "learning_intention": "Evaluate the finished solution using evidence and communicate specific improvements and design learning.",
+          "learning_sequence": "Return to the original criteria and compare claims with the real hat and process evidence. Students prepare accurate photographs, evaluate function, finish, message and sustainability, propose improvements and complete a concise designer statement.",
+          "working_scientifically": "Not applicable to Technology 7\u20138; design and production process: Testing; evaluating; reflecting; communicating improvements.",
+          "evidence": "Activity 10 evaluation and designer statement; completed folio; final product and process evidence; section checks.",
+          "formative_checks": "10 adjacent section questions plus one guided written response",
+          "adjustments": "Use criterion-evidence-judgement-improvement frames, oral planning, speech-to-text, labelled photographs and chunked evaluation categories.",
+          "resources": "Module 10 webpage and PowerPoint, evaluation and designer-statement visuals, videos, Activity 10 and folio.",
+          "site_destinations": {
+            "theory": "modules/module-10.html#section-2",
+            "knowledge_check": "modules/module-10.html#section-2",
+            "written_response": "modules/module-10.html#section-2",
+            "activity": "activities.html#activity-10"
+          }
+        },
+        {
+          "section_id": "module-10-section-3",
+          "title": "10.3 Write the designer statement",
+          "content_descriptors": [
+            "Evaluate ideas and solutions using written, visual, verbal or multimodal forms; use factors affecting design to evaluate quality; justify selection and use of materials and processes."
+          ],
+          "source_ids": [
+            "nesa-materials",
+            "bucket-course"
+          ],
+          "learning_intention": "Evaluate the finished solution using evidence and communicate specific improvements and design learning.",
+          "learning_sequence": "Return to the original criteria and compare claims with the real hat and process evidence. Students prepare accurate photographs, evaluate function, finish, message and sustainability, propose improvements and complete a concise designer statement.",
+          "working_scientifically": "Not applicable to Technology 7\u20138; design and production process: Testing; evaluating; reflecting; communicating improvements.",
+          "evidence": "Activity 10 evaluation and designer statement; completed folio; final product and process evidence; section checks.",
+          "formative_checks": "10 adjacent section questions plus one guided written response",
+          "adjustments": "Use criterion-evidence-judgement-improvement frames, oral planning, speech-to-text, labelled photographs and chunked evaluation categories.",
+          "resources": "Module 10 webpage and PowerPoint, evaluation and designer-statement visuals, videos, Activity 10 and folio.",
+          "site_destinations": {
+            "theory": "modules/module-10.html#section-3",
+            "knowledge_check": "modules/module-10.html#section-3",
+            "written_response": "modules/module-10.html#section-3",
+            "activity": "activities.html#activity-10"
+          }
+        }
+      ]
+    }
+  ],
+  "teacher_to_confirm": [
+    {
+      "id": "timetable",
+      "status": "Teacher to confirm",
+      "owner": "class teacher",
+      "affected_scope": "Weeks 1-10",
+      "due_before": "unit commencement",
+      "smallest_action": "Record the actual lesson pattern and class."
+    },
+    {
+      "id": "assessment-notification",
+      "status": "Teacher to confirm",
+      "owner": "class teacher / faculty",
+      "affected_scope": "assessment",
+      "due_before": "task issue",
+      "smallest_action": "Attach or issue the current task notice with exact date, rubric, conditions and submission route."
+    },
+    {
+      "id": "practical-controls",
+      "status": "Teacher to confirm",
+      "owner": "class teacher / faculty",
+      "affected_scope": "Weeks 2 and 7-9",
+      "due_before": "practical work",
+      "smallest_action": "Confirm approved pattern, materials, equipment, inductions, risk controls and supervision."
+    }
+  ],
+  "site_mapping": [
+    {
+      "route": "modules/module-01.html#section-1",
+      "audience": "student",
+      "purpose": "theory, adjacent knowledge check and guided written response",
+      "module_id": "module-01",
+      "section_id": "module-01-section-1"
+    },
+    {
+      "route": "modules/module-01.html#section-2",
+      "audience": "student",
+      "purpose": "theory, adjacent knowledge check and guided written response",
+      "module_id": "module-01",
+      "section_id": "module-01-section-2"
+    },
+    {
+      "route": "modules/module-01.html#section-3",
+      "audience": "student",
+      "purpose": "theory, adjacent knowledge check and guided written response",
+      "module_id": "module-01",
+      "section_id": "module-01-section-3"
+    },
+    {
+      "route": "modules/module-02.html#section-1",
+      "audience": "student",
+      "purpose": "theory, adjacent knowledge check and guided written response",
+      "module_id": "module-02",
+      "section_id": "module-02-section-1"
+    },
+    {
+      "route": "modules/module-02.html#section-2",
+      "audience": "student",
+      "purpose": "theory, adjacent knowledge check and guided written response",
+      "module_id": "module-02",
+      "section_id": "module-02-section-2"
+    },
+    {
+      "route": "modules/module-02.html#section-3",
+      "audience": "student",
+      "purpose": "theory, adjacent knowledge check and guided written response",
+      "module_id": "module-02",
+      "section_id": "module-02-section-3"
+    },
+    {
+      "route": "modules/module-03.html#section-1",
+      "audience": "student",
+      "purpose": "theory, adjacent knowledge check and guided written response",
+      "module_id": "module-03",
+      "section_id": "module-03-section-1"
+    },
+    {
+      "route": "modules/module-03.html#section-2",
+      "audience": "student",
+      "purpose": "theory, adjacent knowledge check and guided written response",
+      "module_id": "module-03",
+      "section_id": "module-03-section-2"
+    },
+    {
+      "route": "modules/module-03.html#section-3",
+      "audience": "student",
+      "purpose": "theory, adjacent knowledge check and guided written response",
+      "module_id": "module-03",
+      "section_id": "module-03-section-3"
+    },
+    {
+      "route": "modules/module-04.html#section-1",
+      "audience": "student",
+      "purpose": "theory, adjacent knowledge check and guided written response",
+      "module_id": "module-04",
+      "section_id": "module-04-section-1"
+    },
+    {
+      "route": "modules/module-04.html#section-2",
+      "audience": "student",
+      "purpose": "theory, adjacent knowledge check and guided written response",
+      "module_id": "module-04",
+      "section_id": "module-04-section-2"
+    },
+    {
+      "route": "modules/module-04.html#section-3",
+      "audience": "student",
+      "purpose": "theory, adjacent knowledge check and guided written response",
+      "module_id": "module-04",
+      "section_id": "module-04-section-3"
+    },
+    {
+      "route": "modules/module-05.html#section-1",
+      "audience": "student",
+      "purpose": "theory, adjacent knowledge check and guided written response",
+      "module_id": "module-05",
+      "section_id": "module-05-section-1"
+    },
+    {
+      "route": "modules/module-05.html#section-2",
+      "audience": "student",
+      "purpose": "theory, adjacent knowledge check and guided written response",
+      "module_id": "module-05",
+      "section_id": "module-05-section-2"
+    },
+    {
+      "route": "modules/module-05.html#section-3",
+      "audience": "student",
+      "purpose": "theory, adjacent knowledge check and guided written response",
+      "module_id": "module-05",
+      "section_id": "module-05-section-3"
+    },
+    {
+      "route": "modules/module-06.html#section-1",
+      "audience": "student",
+      "purpose": "theory, adjacent knowledge check and guided written response",
+      "module_id": "module-06",
+      "section_id": "module-06-section-1"
+    },
+    {
+      "route": "modules/module-06.html#section-2",
+      "audience": "student",
+      "purpose": "theory, adjacent knowledge check and guided written response",
+      "module_id": "module-06",
+      "section_id": "module-06-section-2"
+    },
+    {
+      "route": "modules/module-06.html#section-3",
+      "audience": "student",
+      "purpose": "theory, adjacent knowledge check and guided written response",
+      "module_id": "module-06",
+      "section_id": "module-06-section-3"
+    },
+    {
+      "route": "modules/module-07.html#section-1",
+      "audience": "student",
+      "purpose": "theory, adjacent knowledge check and guided written response",
+      "module_id": "module-07",
+      "section_id": "module-07-section-1"
+    },
+    {
+      "route": "modules/module-07.html#section-2",
+      "audience": "student",
+      "purpose": "theory, adjacent knowledge check and guided written response",
+      "module_id": "module-07",
+      "section_id": "module-07-section-2"
+    },
+    {
+      "route": "modules/module-07.html#section-3",
+      "audience": "student",
+      "purpose": "theory, adjacent knowledge check and guided written response",
+      "module_id": "module-07",
+      "section_id": "module-07-section-3"
+    },
+    {
+      "route": "modules/module-08.html#section-1",
+      "audience": "student",
+      "purpose": "theory, adjacent knowledge check and guided written response",
+      "module_id": "module-08",
+      "section_id": "module-08-section-1"
+    },
+    {
+      "route": "modules/module-08.html#section-2",
+      "audience": "student",
+      "purpose": "theory, adjacent knowledge check and guided written response",
+      "module_id": "module-08",
+      "section_id": "module-08-section-2"
+    },
+    {
+      "route": "modules/module-08.html#section-3",
+      "audience": "student",
+      "purpose": "theory, adjacent knowledge check and guided written response",
+      "module_id": "module-08",
+      "section_id": "module-08-section-3"
+    },
+    {
+      "route": "modules/module-09.html#section-1",
+      "audience": "student",
+      "purpose": "theory, adjacent knowledge check and guided written response",
+      "module_id": "module-09",
+      "section_id": "module-09-section-1"
+    },
+    {
+      "route": "modules/module-09.html#section-2",
+      "audience": "student",
+      "purpose": "theory, adjacent knowledge check and guided written response",
+      "module_id": "module-09",
+      "section_id": "module-09-section-2"
+    },
+    {
+      "route": "modules/module-09.html#section-3",
+      "audience": "student",
+      "purpose": "theory, adjacent knowledge check and guided written response",
+      "module_id": "module-09",
+      "section_id": "module-09-section-3"
+    },
+    {
+      "route": "modules/module-10.html#section-1",
+      "audience": "student",
+      "purpose": "theory, adjacent knowledge check and guided written response",
+      "module_id": "module-10",
+      "section_id": "module-10-section-1"
+    },
+    {
+      "route": "modules/module-10.html#section-2",
+      "audience": "student",
+      "purpose": "theory, adjacent knowledge check and guided written response",
+      "module_id": "module-10",
+      "section_id": "module-10-section-2"
+    },
+    {
+      "route": "modules/module-10.html#section-3",
+      "audience": "student",
+      "purpose": "theory, adjacent knowledge check and guided written response",
+      "module_id": "module-10",
+      "section_id": "module-10-section-3"
+    }
+  ],
+  "delivery_ledger": {
+    "planned_total_minutes": 1800,
+    "planned_investigation_minutes": 0,
+    "categories": {
+      "design_and_theory": 600,
+      "practical_project_and_sampling": 1020,
+      "evaluation_and_communication": 180
+    },
+    "actual_status": "Blank teacher working record supplied; actual delivery must be entered after teaching."
+  },
+  "files": [
+    {
+      "path": "Bucket-Hat-10-Week-Teaching-Program-and-Scope-Sequence-v1.0.docx",
+      "sha256": "716c30d3b74bcba1b4595a286480c3ec7a9861f9fb23e1819fd59422a1bf10c6",
+      "role": "teacher program"
+    },
+    {
+      "path": "delivery-ledger-v1.0.0.docx",
+      "role": "teacher delivery record"
+    },
+    {
+      "path": "teacher-program-site-map-v1.0.0.json",
+      "sha256": "0d62accbb4da5896221642c56c64a6fa84eb7ae744c35cb1667f4e45c172f9b8",
+      "role": "route map"
+    },
+    {
+      "path": "source-contract-v1.0.0.json",
+      "sha256": "f1683f678075afbc9990dc7a7763bd6c5506b5443ba6a43da188e3519c3d4f1a",
+      "role": "source contract"
+    }
+  ],
+  "assessment_source": {
+    "title": "Year 7 Assessment Booklet 2026.pdf",
+    "google_drive_file_id": "11ROarWd4Rx6Zq2Zq2andgqITG2ur8Qx0",
+    "page": 16,
+    "modified": "2026-01-31T23:58:38.523Z",
+    "size_bytes": 1340947
+  },
+  "nesa_fit": {
+    "unit_role": "One Materials and production processes project within the full Years 7\u20138 course; not the whole course.",
+    "digital_coding_boundary": "TE4-DIG-02 is not claimed unless a real teacher-approved data or coding activity is taught."
+  }
+}

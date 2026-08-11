@@ -1,0 +1,133 @@
+{
+  "version": "1.0.0",
+  "unit": "Bucket Hat for a Cause",
+  "weeks": [
+    {
+      "week": 1,
+      "module": "1. Textiles with a purpose",
+      "theory_route": "modules/module-01.html#section-1",
+      "activity_route": "activities.html#activity-1",
+      "presentation": "resources/presentations/Bucket-Hat-Module-01-textiles-with-purpose.pptx",
+      "outcomes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01",
+        "TE4-DES-01",
+        "TE4-SDP-01"
+      ]
+    },
+    {
+      "week": 2,
+      "module": "2. Safe textile work",
+      "theory_route": "modules/module-02.html#section-1",
+      "activity_route": "activities.html#activity-2",
+      "presentation": "resources/presentations/Bucket-Hat-Module-02-safe-textile-work.pptx",
+      "outcomes": [
+        "TE4-SAF-01",
+        "TE4-MSC-01",
+        "TE4-PPM-01"
+      ]
+    },
+    {
+      "week": 3,
+      "module": "3. Visual messages",
+      "theory_route": "modules/module-03.html#section-1",
+      "activity_route": "activities.html#activity-3",
+      "presentation": "resources/presentations/Bucket-Hat-Module-03-visual-messages.pptx",
+      "outcomes": [
+        "TE4-DES-01",
+        "TE4-PDP-01",
+        "TE4-DIG-01"
+      ]
+    },
+    {
+      "week": 4,
+      "module": "4. Define the challenge",
+      "theory_route": "modules/module-04.html#section-1",
+      "activity_route": "activities.html#activity-4",
+      "presentation": "resources/presentations/Bucket-Hat-Module-04-define-the-challenge.pptx",
+      "outcomes": [
+        "TE4-DES-01",
+        "TE4-PDP-01",
+        "TE4-PPM-01"
+      ]
+    },
+    {
+      "week": 5,
+      "module": "5. Develop and select ideas",
+      "theory_route": "modules/module-05.html#section-1",
+      "activity_route": "activities.html#activity-5",
+      "presentation": "resources/presentations/Bucket-Hat-Module-05-develop-and-select-ideas.pptx",
+      "outcomes": [
+        "TE4-DES-01",
+        "TE4-PPM-01",
+        "TE4-PDP-01"
+      ]
+    },
+    {
+      "week": 6,
+      "module": "6. Fibres, fabrics and sustainability",
+      "theory_route": "modules/module-06.html#section-1",
+      "activity_route": "activities.html#activity-6",
+      "presentation": "resources/presentations/Bucket-Hat-Module-06-fibres-fabrics-sustainability.pptx",
+      "outcomes": [
+        "TE4-MSC-01",
+        "TE4-SDP-01",
+        "TE4-PDP-01",
+        "TE4-DIG-01"
+      ]
+    },
+    {
+      "week": 7,
+      "module": "7. Decorative technique trials",
+      "theory_route": "modules/module-07.html#section-1",
+      "activity_route": "activities.html#activity-7",
+      "presentation": "resources/presentations/Bucket-Hat-Module-07-decorative-technique-trials.pptx",
+      "outcomes": [
+        "TE4-MSC-01",
+        "TE4-SAF-01",
+        "TE4-DES-01",
+        "TE4-PDP-01"
+      ]
+    },
+    {
+      "week": 8,
+      "module": "8. Prepare for production",
+      "theory_route": "modules/module-08.html#section-1",
+      "activity_route": "activities.html#activity-8",
+      "presentation": "resources/presentations/Bucket-Hat-Module-08-prepare-for-production.pptx",
+      "outcomes": [
+        "TE4-PPM-01",
+        "TE4-DES-01",
+        "TE4-SAF-01",
+        "TE4-MSC-01"
+      ]
+    },
+    {
+      "week": 9,
+      "module": "9. Produce the reversible hat",
+      "theory_route": "modules/module-09.html#section-1",
+      "activity_route": "activities.html#activity-9",
+      "presentation": "resources/presentations/Bucket-Hat-Module-09-produce-the-reversible-hat.pptx",
+      "outcomes": [
+        "TE4-SAF-01",
+        "TE4-PPM-01",
+        "TE4-PDP-01",
+        "TE4-DES-01",
+        "TE4-DIG-01"
+      ]
+    },
+    {
+      "week": 10,
+      "module": "10. Evaluate and communicate",
+      "theory_route": "modules/module-10.html#section-1",
+      "activity_route": "activities.html#activity-10",
+      "presentation": "resources/presentations/Bucket-Hat-Module-10-evaluate-and-communicate.pptx",
+      "outcomes": [
+        "TE4-DES-01",
+        "TE4-SDP-01",
+        "TE4-PDP-01",
+        "TE4-DIG-01"
+      ]
+    }
+  ]
+}
