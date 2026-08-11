@@ -40,3 +40,16 @@ Generated with the built-in image-generation model on 11 August 2026:
 3. `cotton-polyester-comparison.png` — neutral side-by-side teaching image of cotton and polyester fibres and woven samples; no labels, logos, text or unsupported claims.
 
 These visuals support observation and discussion; captions and theory supply the factual teaching claims.
+
+## Purpose-made teaching diagrams
+
+Created locally for the course upgrade on 12 August 2026 from the already authorised theory and project boundaries:
+
+1. `hat-design-system.svg` — links user, purpose, visual choices, materials and construction as one wearable reversible-hat system.
+2. `visual-message-path.svg` — shows the research, define, create, place and audience-check pathway for an original respectful message.
+3. `material-choice-balance.svg` — frames material selection through performance, making, care and responsible-use evidence.
+4. `technique-trial-loop.svg` — shows a controlled one-variable sample-and-refine cycle.
+5. `production-hold-points.svg` — identifies planned proceed, correct or ask checkpoints without adding pattern dimensions or an unapproved construction sequence.
+6. `evaluation-evidence-loop.svg` — connects criterion, test method, evidence, judgement and a specific improvement.
+
+The diagrams do not introduce machine settings, measurements, materials, branding or assessment details beyond the approved course sources.

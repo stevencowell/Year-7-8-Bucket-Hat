@@ -5,7 +5,7 @@
 
   const VISUALS = {
     1: [
-      {after:0,src:'bucket-hat-hero.png',alt:'Reversible purple tie-dye bucket hat on a clean textiles worktable',caption:'A bucket hat works as a complete textile system: crown, brim, lining, seams and surface design.'},
+      {after:0,src:'hat-design-system.svg',alt:'Diagram showing user, purpose, visual choices, materials and construction combining into a wearable reversible bucket hat',caption:'A successful hat balances the whole design system rather than treating appearance, use and making as separate decisions.'},
       {after:1,src:'bucket-hat-purpose-gallery.png',alt:'Gallery-walk organiser comparing sun-safe, cultural, fashion, awareness and target-market hats',caption:'Compare purpose, user and message before choosing a direction.'},
       {after:2,src:'hat-representation.png',alt:'Mind map asking what hats should represent',caption:'A cause becomes useful when it is connected to a real audience and respectful visual choices.'}
     ],
@@ -15,7 +15,7 @@
       {after:2,src:'construction-22.jpg',alt:'Close view of controlled sewing on purple bucket-hat fabric',caption:'Guide the fabric with fingers clear and use only a speed you can control.'}
     ],
     3: [
-      {after:0,src:'colour-meaning-chart.png',alt:'Colour wheel activity for recording possible colour meanings',caption:'Colour meaning depends on context; test how your intended audience may interpret it.'},
+      {after:0,src:'visual-message-path.svg',alt:'Five-step pathway from researching a cause to checking how an audience interprets an original visual message',caption:'Build meaning through research, definition, creation, placement and an audience check.'},
       {after:1,src:'symbols-that-speak.png',alt:'Organiser for a symbol, its meaning and design possibilities',caption:'Research meaning and ownership, then simplify the symbol for the chosen technique.'},
       {after:2,src:'campaign-analysis.png',alt:'Campaign analysis organiser with three public health and service examples',caption:'Analyse design strategies; do not copy protected campaign branding.'}
     ],
@@ -31,13 +31,13 @@
     ],
     6: [
       {after:0,src:'cotton-polyester-comparison.png',alt:'Side-by-side cotton fibre and fabric with polyester fibre and fabric',caption:'Fibre origin, yarn, fabric structure and finishing all affect performance.'},
-      {after:1,src:'construction-01.jpg',alt:'Teacher-source photograph of pressing purple tie-dyed fabric',caption:'Real fabric behaviour must be observed during the approved project process.'},
+      {after:1,src:'material-choice-balance.svg',alt:'Diagram balancing material performance, making, care and responsible use',caption:'Material selection is a balance supported by evidence from the actual fabric and intended use.'},
       {after:2,src:'construction-07.jpg',alt:'Teacher-source pattern layout showing multiple bucket-hat pieces arranged on a worktable',caption:'Efficient layout and durable construction are practical parts of responsible material use.'}
     ],
     7: [
-      {after:0,src:'decorative-technique-logbook.png',alt:'Logbook table for technique, materials, steps and outcome',caption:'A labelled sample log turns experimentation into evidence.'},
+      {after:0,src:'technique-trial-loop.svg',alt:'Decorative technique trial loop from question to sample, observation and refinement',caption:'A focused sample protects final material and makes the next improvement evidence-based.'},
       {after:1,src:'construction-03.jpg',alt:'Teacher-source photograph of tie-dyed bucket-hat fabric pieces and pattern',caption:'Technique, colour and placement should be tested before the final pieces are assembled.'},
-      {after:2,src:'construction-14.jpg',alt:'Teacher-source photograph of pressing a purple fabric panel',caption:'Heat processes require the material, setting and safe method demonstrated by the teacher.'}
+      {after:2,src:'decorative-technique-logbook.png',alt:'Logbook table for technique, materials, steps and outcome',caption:'Record the real materials, demonstrated process and observed result for each approved trial.'}
     ],
     8: [
       {after:0,src:'pattern-symbols.png',alt:'Pattern-symbol worksheet showing grainline, fold, cutting lines and notches',caption:'Read the symbols on the approved project pattern and ask when any detail is unclear.'},
@@ -45,17 +45,30 @@
       {after:2,src:'sewing-machine-parts.png',alt:'Teacher-source labelled sewing-machine diagram',caption:'Machine readiness depends on the actual classroom model and teacher approval.'}
     ],
     9: [
-      {after:0,src:'action-plan.png',alt:'Action-plan table for tasks, materials and tools',caption:'Plan setup, production, checking, evidence and pack-up—not only sewing time.'},
+      {after:0,src:'production-hold-points.svg',alt:'Five bucket-hat production hold points from pattern preparation to final finish',caption:'Pause at planned hold points to proceed, correct or ask before an error becomes permanent.'},
       {after:1,src:'construction-19.jpg',alt:'Teacher-source photograph of a circular crown clipped to a curved side section',caption:'Match curves carefully and stop for a quality check before sewing past a problem.'},
       {after:2,src:'progress-log.png',alt:'Progress log with columns for task, learning, challenge and next step',caption:'Honest stage evidence shows what changed and what needs to happen next.'},
       {after:2,src:'construction-30.jpg',alt:'Teacher-source photograph of the nearly finished purple reversible bucket hat',caption:'The authentic construction sequence provides teaching context; students still record their own product evidence.'}
     ],
     10: [
-      {after:0,src:'self-evaluation.png',alt:'Self-evaluation table with criteria and reflection questions',caption:'Use evidence to judge each criterion separately.'},
+      {after:0,src:'evaluation-evidence-loop.svg',alt:'Evaluation loop connecting criterion, method, evidence, judgement and specific improvement',caption:'Each evaluation judgement should be traceable to an observable test and a precise next step.'},
       {after:1,src:'peer-feedback.png',alt:'Circle-of-viewpoints organiser for positives, improvements and interesting features',caption:'Feedback is evidence to consider, not an instruction to accept every suggestion.'},
       {after:2,src:'designer-statement.png',alt:'Designer-statement scaffold beside lined writing space',caption:'Explain user, purpose, choices, challenge and judgement with evidence from the real project.'},
       {after:2,src:'construction-32.jpg',alt:'Teacher-source photograph of a completed purple reversible bucket hat',caption:'Present the real product clearly from both sides and keep formal submission details teacher-controlled.'}
     ]
+  };
+
+  const MODULE_CHALLENGES = {
+    1: {title:'System check',scenario:'A hat communicates a strong cause but is uncomfortable and cannot be reversed cleanly.',prompt:'Which parts of the design system have failed, and what should the designer reconsider first?',example:'The message is working, but user comfort and reversible construction are not. Return to the user need and construction requirements, then adjust the design without losing the message.'},
+    2: {title:'Stop-work decision',scenario:'The fabric stops feeding smoothly and the machine begins making an unfamiliar sound.',prompt:'What should the operator do, and why is guessing at settings a poor response?',example:'Remove pressure from the control, stop the machine and follow the demonstrated teacher-check routine. Changing several settings could create another fault and does not identify the original cause.'},
+    3: {title:'Audience reading',scenario:'A detailed symbol looks clear on a full-page sketch but becomes confusing when reduced to the side of a hat.',prompt:'Which visual decisions could improve the message without copying another campaign?',example:'Simplify the symbol, increase contrast, remove small detail and test its scale on a hat template. Ask a viewer what they read before finalising it.'},
+    4: {title:'Criterion or constraint?',scenario:'A student writes “the hat must look good” and “I do not like sewing curves”.',prompt:'Rewrite one as a testable criterion and explain why the other is not a valid project constraint.',example:'A criterion could be: “The symbol remains recognisable from two metres in an audience check.” Disliking curved sewing is a challenge to manage, not an external limit on the brief.'},
+    5: {title:'Genuine alternatives',scenario:'Four concepts use the same layout and symbol; only the colours change.',prompt:'What should vary so the concepts represent real design choices?',example:'Change meaningful features such as symbol scale, placement, repetition, technique or the relationship between the two reversible sides. Colour alone does not create four genuine alternatives.'},
+    6: {title:'Material claim check',scenario:'A label says one fabric is “the sustainable choice” but gives no source, use pattern or care information.',prompt:'Why is the claim weak, and what evidence would support a more careful judgement?',example:'The claim ignores durability, care, waste and repeated use. Compare the actual fabrics, record relevant properties and state a limited conclusion supported by the evidence available.'},
+    7: {title:'One-variable trial',scenario:'A second sample changes the fabric, thread, motif size and stitch method at the same time.',prompt:'Why is comparison difficult, and how could the next trial be improved?',example:'The result cannot show which change caused the difference. Keep the approved setup consistent and change one feature linked to the investigation question.'},
+    8: {title:'Readiness gate',scenario:'All pieces are cut, but matching marks are unclear and the student is unsure which side will face out.',prompt:'Should construction begin? Identify the evidence needed before proceeding.',example:'No. Compare the pieces with the approved pattern, confirm marks, pairs and right or wrong sides, organise the sets, then seek teacher confirmation before an irreversible join.'},
+    9: {title:'Quality hold point',scenario:'A curved section is clipped unevenly and small puckers appear before sewing begins.',prompt:'Use proceed, correct or ask to make a justified decision.',example:'Correct first by stopping and redistributing the fabric using the demonstrated method. If the edges still do not match, ask before sewing. Record the check and decision as progress evidence.'},
+    10: {title:'Evidence or opinion?',scenario:'An evaluation says “I love the hat, so it met every criterion”.',prompt:'What is missing, and how should one criterion be evaluated?',example:'Personal preference is not enough. Name one criterion, describe the test and result, judge whether it was met and connect a specific improvement to that evidence.'}
   };
 
   const activityLabels = ['Textiles and purpose investigation','Safety and tools audit','Visual message studio','Brief and criteria builder','Mood board and concept studio','Fibre and sustainability comparison','Technique sample log','Pattern and machine readiness','Action plan and progress evidence','Evaluation and designer statement'];
@@ -66,6 +79,7 @@
   const escapeAttr = value => String(value).replace(/&/g,'&amp;').replace(/"/g,'&quot;');
   const readJSON = key => { try { return JSON.parse(localStorage.getItem(key) || '{}'); } catch { return {}; } };
   const figureHtml = item => `<figure class="teaching-visual"><a href="../assets/${item.src}" target="_blank" rel="noopener"><img src="../assets/${item.src}" alt="${escapeAttr(item.alt)}" loading="lazy"></a><figcaption>${item.caption} <a href="../assets/${item.src}" target="_blank" rel="noopener">Open larger</a></figcaption></figure>`;
+  const challengeHtml = item => `<aside class="transfer-challenge"><p class="eyebrow">Apply it</p><h3>${item.title}</h3><p><strong>Scenario:</strong> ${item.scenario}</p><p><strong>Your decision:</strong> ${item.prompt}</p><details><summary>Appropriate response example</summary><p>${item.example}</p></details></aside>`;
   const videoHtml = (video, sectionNumber) => {
     const isVimeo = video.provider === 'vimeo';
     const thumb = isVimeo ? '../assets/safe-sewing-workstation.png' : `https://i.ytimg.com/vi/${video.id}/hqdefault.jpg`;
@@ -88,7 +102,8 @@
   document.querySelector('[data-theory]').innerHTML = presentationHtml + data.sections.map((section, i) => {
     const figures = (VISUALS[moduleId] || []).filter(v => v.after === i).map(figureHtml).join('');
     const video = COURSE_VIDEOS[`${moduleId}.${i + 1}`];
-    return `<section class="theory-block" id="section-${i + 1}"><h2>${section.title}</h2>${section.html}</section>${figures}${videoHtml(video, `${moduleId}-${i + 1}`)}<details class="section-learning" id="check-${section.learningId}"><summary><span>Learning activity ${moduleId}.${i + 1}</span><strong>10 questions + written response</strong></summary><div class="section-learning-body"><p>Answer all ten questions. If an answer needs work, the feedback points back to this precise theory section.</p><div data-section-check="${section.learningId}">${section.questions.map((item, qi) => questionHtml(item, qi, section)).join('')}</div>${evidenceHtml(section, i)}</div></details>`;
+    const transfer = i === 1 ? challengeHtml(MODULE_CHALLENGES[moduleId]) : '';
+    return `<section class="theory-block" id="section-${i + 1}"><h2>${section.title}</h2>${section.html}</section>${figures}${videoHtml(video, `${moduleId}-${i + 1}`)}<details class="section-learning" id="check-${section.learningId}"><summary><span>Learning activity ${moduleId}.${i + 1}</span><strong>10 questions + written response</strong></summary><div class="section-learning-body"><p>Answer all ten questions. If an answer needs work, the feedback points back to this precise theory section.</p><div data-section-check="${section.learningId}">${section.questions.map((item, qi) => questionHtml(item, qi, section)).join('')}</div>${evidenceHtml(section, i)}</div></details>${transfer}`;
   }).join('');
 
   const aside = document.querySelector('.module-aside');
