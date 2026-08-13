@@ -27,6 +27,13 @@
   width: calc(100% - 32px) !important;
 }
 
+/* Task 34: retain one intro, the actual module pathway and the practical safety note. */
+.course-family-intro + section,
+.course-family-intro + section + .tint,
+#modules ~ .tint {
+  display: none !important;
+}
+
 .course-family-hero .hero-copy {
   max-width: 680px !important;
   min-width: 0;
