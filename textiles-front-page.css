@@ -1,0 +1,45 @@
+/* Front-page alignment with the shared Timber/Metal course family. */
+html {
+  scroll-padding-top: 84px;
+}
+
+#modules {
+  scroll-margin-top: 84px;
+}
+
+@media (min-width: 821px) {
+  .nav-wrap {
+    gap: .65rem;
+    max-width: 1420px;
+  }
+
+  .brand {
+    font-size: .95rem;
+  }
+
+  .brand-mark {
+    height: 2rem;
+    width: 2rem;
+  }
+
+  .site-nav {
+    flex-wrap: nowrap;
+    gap: .1rem;
+  }
+
+  .site-nav a {
+    font-size: .875rem;
+    padding: .45rem .5rem;
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 820px) {
+  html {
+    scroll-padding-top: 76px;
+  }
+
+  #modules {
+    scroll-margin-top: 76px;
+  }
+}
