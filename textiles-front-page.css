@@ -43,3 +43,8 @@ html {
     scroll-margin-top: 76px;
   }
 }
+
+/* Do not show internal teacher-confirmation strips on student front pages. */
+.course-family-intro__boundary {
+  display: none !important;
+}
