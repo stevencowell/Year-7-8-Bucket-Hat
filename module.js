@@ -2,6 +2,7 @@
   const moduleId = Number(document.body.dataset.module);
   const data = COURSE_MODULES.find(item => item.id === moduleId);
   if (!data) return;
+  document.body.classList.add('module-standard-page');
 
   const VISUALS = {
     1: [
@@ -98,16 +99,22 @@
   document.title = `Module ${data.id}: ${data.title} | Bucket Hat for a Cause`;
   document.querySelector('[data-module-header]').innerHTML = `<p class="eyebrow">Module ${data.id} of ${COURSE_MODULES.length}</p><h1>${data.title}</h1><p class="lede">${data.subtitle}</p>`;
   document.querySelector('[data-contents]').innerHTML = data.sections.map((s, i) => `<li><a href="#section-${i + 1}">${s.title}</a></li>`).join('');
-  const presentationHtml = `<aside class="module-presentation"><div><p class="eyebrow">Module presentation</p><h2>Learn with the slides</h2><p>Use the eight-slide presentation to retrieve prior learning, review the three sections and prepare your evidence.</p><p class="fine">PowerPoint · 8 slides · student-accessible</p></div><a class="button tomato presentation-download" href="../resources/presentations/${presentationFiles[moduleId - 1]}" download>Download Module ${moduleId} PowerPoint</a></aside>`;
-  document.querySelector('[data-theory]').innerHTML = presentationHtml + data.sections.map((section, i) => {
+  const presentationHtml = `<aside class="module-presentation module-overview"><div><p class="eyebrow">Module presentation</p><h2>Preview, learn and save evidence</h2><p>Use the eight-slide presentation to retrieve prior learning, review the three sections and prepare your evidence.</p><p class="fine">PowerPoint · 8 slides · student-accessible</p></div><a class="button tomato presentation-download" href="../resources/presentations/${presentationFiles[moduleId - 1]}" download>Download Module ${moduleId} PowerPoint</a></aside>`;
+  document.querySelector('[data-theory]').innerHTML = data.sections.map((section, i) => {
     const figures = (VISUALS[moduleId] || []).filter(v => v.after === i).map(figureHtml).join('');
     const video = COURSE_VIDEOS[`${moduleId}.${i + 1}`];
     const transfer = i === 1 ? challengeHtml(MODULE_CHALLENGES[moduleId]) : '';
     return `<section class="theory-block" id="section-${i + 1}"><h2>${section.title}</h2>${section.html}</section>${figures}${videoHtml(video, `${moduleId}-${i + 1}`)}<details class="section-learning" id="check-${section.learningId}"><summary><span>Learning activity ${moduleId}.${i + 1}</span><strong>10 questions + written response</strong></summary><div class="section-learning-body"><p>Answer all ten questions. If an answer needs work, the feedback points back to this precise theory section.</p><div data-section-check="${section.learningId}">${section.questions.map((item, qi) => questionHtml(item, qi, section)).join('')}</div>${evidenceHtml(section, i)}</div></details>${transfer}`;
   }).join('');
 
+  const layout = document.querySelector('.module-layout');
+  const moduleMain = document.querySelector('.module-main');
   const aside = document.querySelector('.module-aside');
-  aside.insertAdjacentHTML('beforeend', `<hr><h3>Project activity</h3><p>${activityLabels[moduleId - 1]}</p><a class="button secondary compact" href="../activities.html#activity-${moduleId}">Open activity</a><button class="button secondary compact" type="button" data-print-module>Print / Save PDF</button>`);
+  aside.classList.add('student-evidence');
+  aside.innerHTML = `<div><p class="eyebrow">Student evidence</p><h2>Your progress</h2><div class="progress-shell" aria-hidden="true"><div class="progress-bar" data-progress></div></div><p class="fine" data-progress-text></p><a href="../folio.html">Open My folio →</a></div><div><h3>Project activity</h3><p>${activityLabels[moduleId - 1]}</p><a class="button secondary compact" href="../activities.html#activity-${moduleId}">Open activity</a><button class="button secondary compact" type="button" data-print-module>Print / Save PDF</button></div>`;
+  moduleMain.insertAdjacentHTML('beforebegin', presentationHtml);
+  layout.insertBefore(aside, moduleMain);
+  document.querySelector('.module-main > .actions').classList.add('completion-panel', 'card');
   aside.querySelector('[data-print-module]').addEventListener('click', () => window.print());
 
   document.querySelectorAll('[data-check-one]').forEach(button => button.addEventListener('click', () => {
