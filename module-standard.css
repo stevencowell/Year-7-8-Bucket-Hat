@@ -67,6 +67,10 @@
     width: min(var(--module-max), calc(100% - var(--module-mobile-gutter)));
   }
 
+  .module-standard-page .construction-guide {
+    order: -2;
+  }
+
   .module-standard-page .page-hero h1 {
     font-size: 40px;
     line-height: 46px;
